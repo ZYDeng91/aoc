@@ -69,6 +69,7 @@ func day8_2 (inst string, lines map[string]string, ghosts []string) int {
     // brute force is taking too long
     // instead we observe periods when each ghost reach a Z 
     // and find least common multiple
+    // (the period is the same from A to Z and from Z to Z for some reason)
 
     periods := make(map[string]int, len(ghosts))
 
