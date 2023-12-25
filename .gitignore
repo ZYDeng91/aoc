@@ -3,3 +3,5 @@
 2022/
 go.sum
 *.old
+octave-workspace
+*.dot
