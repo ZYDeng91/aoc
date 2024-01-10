@@ -4,7 +4,9 @@ Archiving my ideas and prompts about the yearly event [Advent Of Code](https://a
 
 2023 is my 1st year into AoC, and this is my 1st hands-on adventure with Golang (I don't have what it takes to play competitive). Not gonna clean up the code since they are reflective of my thought process, instead I will try to provide writeups of how I solved each problem. Enjoy!
 
-[12](#writeup/12.md) - [13](#writeup/13.md) - [14](#writeup/14.md) - [15](#writeup/15.md)
+[12](writeup/12.md)\* - [13](writeup/13.md) - [14](writeup/14.md) - [15](writeup/15.md)
+
+\* - I peeked reddit for hints because the puzzle involves techniques outside my repertoire, may contain borrowed ideas.
 
 ## Personal Times
 
