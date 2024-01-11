@@ -4,15 +4,22 @@ Archiving my ideas and prompts about the yearly event [Advent Of Code](https://a
 
 2023 is my 1st year into AoC, and this is my 1st hands-on adventure with Golang (I don't have what it takes to play competitive). Not gonna clean up the code since they are reflective of my thought process, instead I will try to provide writeups of how I solved each problem. Enjoy!
 
-[12](writeup/12.md)\* - [13](writeup/13.md) - [14](writeup/14.md) - [15](writeup/15.md)
+[12](writeup/12.md)\* - [13](writeup/13.md) - [14](writeup/14.md) - [15](writeup/15.md) - [16](writeup/16.md) - [17](writeup/17.md)\* - [18](writeup/18.md) - [19](writeup/19.md)
+[20](writeup/20.md) - [21](writeup/21.md) - [22](writeup/22.md) - [23](writeup/23.md)\* - [24](writeup/24.md)\* - [25](writeup/25.md)\*
 
-\* - I peeked reddit for hints because the puzzle involves techniques outside my repertoire, may contain borrowed ideas.
+\* - I peeked [reddit](https://old.reddit.com/r/adventofcode/) for hints because the puzzle involves techniques outside my repertoire. May contain unoriginal ideas.
 
 ## Personal Times
 
 ```
       --------Part 1--------   --------Part 2--------
 Day       Time   Rank  Score       Time   Rank  Score
+ 25   02:32:02   2821      0   02:32:08   2367      0
+ 24   00:48:06   1134      0   02:58:52   1359      0
+ 23   01:23:05   3034      0   02:56:15   2076      0
+ 22   01:34:48   2229      0   02:34:55   2500      0
+ 21   00:38:13   3409      0   03:02:19   1387      0
+ 20   01:22:06   2441      0   03:18:59   2619      0
  19   01:19:39   4844      0   02:49:26   3363      0
  18   01:17:09   4063      0   02:26:53   3054      0
  17   05:22:43   5525      0   05:33:30   4858      0
