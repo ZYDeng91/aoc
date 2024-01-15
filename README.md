@@ -4,7 +4,7 @@ Archiving my ideas and prompts about the yearly event [Advent Of Code](https://a
 
 2023 is my 1st year into AoC, and this is my 1st hands-on adventure with Golang (I don't have what it takes to play competitive). Not gonna clean up the code since they are reflective of my thought process, instead I will try to provide writeups of how I solved each problem. Enjoy!
 
- [6](writeup/6.md) - [7](writeup/7.md) - [8](writeup/8.md) - [9](writeup/9.md) - [10](writeup/10.md) - [11](writeup/11.md) - [12](writeup/12.md)\* - [13](writeup/13.md) - [14](writeup/14.md) - [15](writeup/15.md) - [16](writeup/16.md) - [17](writeup/17.md)\* - [18](writeup/18.md) - [19](writeup/19.md) - [20](writeup/20.md) - [21](writeup/21.md) - [22](writeup/22.md) - [23](writeup/23.md)\* - [24](writeup/24.md)\* - [25](writeup/25.md)\*
+[1](writeup/1.md) - [2](writeup/2.md) - [3](writeup/3.md) - [4](writeup/4.md) - [5](writeup/5.md) - [6](writeup/6.md) - [7](writeup/7.md) - [8](writeup/8.md) - [9](writeup/9.md) - [10](writeup/10.md) - [11](writeup/11.md) - [12](writeup/12.md)\* - [13](writeup/13.md) - [14](writeup/14.md) - [15](writeup/15.md) - [16](writeup/16.md) - [17](writeup/17.md)\* - [18](writeup/18.md) - [19](writeup/19.md) - [20](writeup/20.md) - [21](writeup/21.md) - [22](writeup/22.md) - [23](writeup/23.md)\* - [24](writeup/24.md)\* - [25](writeup/25.md)\*
 
 \* - I peeked [reddit](https://old.reddit.com/r/adventofcode/) for hints because the puzzle involves techniques outside my repertoire. May contain unoriginal ideas.
 
