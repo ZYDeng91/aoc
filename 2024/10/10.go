@@ -73,7 +73,6 @@ func path(mat []string, current loc, state byte, max_x, max_y int) int {
 		if !(dir[0] < 0 || dir[0] >= max_x || dir[1] < 0 || dir[1] >= max_y) {
 			if mat[dir[0]][dir[1]] == state + 1 {
 				res += path(mat, dir, state+1, max_x, max_y)
-				path(mat, dir, state+1, max_x, max_y)
 			}
 		}
 	}
