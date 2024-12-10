@@ -67,7 +67,7 @@ func path(mat []string, current loc, state byte, max_x, max_y int) int {
 	res := 0
 	dirs := make([]loc, 4)
 	for i:=0;i<4;i++ {
-		dirs[i] = loc{current[0]+i%2*(2*(i/2)-1), current[1]+(i-1)%2}
+		dirs[i] = loc{current[0]+i%2*(i-2), current[1]+(i-1)%2}
 	}
 	for _, dir := range(dirs) {
 		if !(dir[0] < 0 || dir[0] >= max_x || dir[1] < 0 || dir[1] >= max_y) {
