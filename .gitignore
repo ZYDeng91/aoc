@@ -7,3 +7,4 @@ octave-workspace
 *.dot
 .env
 *.html
+*.test
