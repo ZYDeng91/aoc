@@ -107,7 +107,7 @@ func day20(mat [][]byte, filter, cheats int) int {
 				continue
 			}
 
-			//fmt.Println(k, v+distance, k2, v2)
+			//fmt.Println(k, v, k2, v2, delta-distance)
 			res += 1
 		}
 	}
@@ -138,8 +138,8 @@ func astar(start, end Loc, mat [][]byte) int {
 				continue
 			}
 			tentative_g := currentNode.score + 1
-			next_g, _ := gScore[next]
-			if next_g == 0 || (tentative_g <= next_g) {
+			next_g, ok := gScore[next]
+			if !ok || tentative_g <= next_g {
 				gScore[next] = tentative_g
 				heap.Push(openSet, Node{next, tentative_g})
 			}
