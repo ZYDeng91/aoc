@@ -110,14 +110,19 @@ func min_seq(start, end rune, depth int) int {
 	if ok {
 		return val
 	}
-	seqs := dir(start, end)
-	if depth == 1 {
-		return min_len(seqs)
+	if depth == 0 {
+		return 1
 	}
+	seqs := dir(start, end)
+	/*if depth == 1 {
+		return min_len(seqs)
+	}*/
 
 	res := maxInt
 
 	for _, seq := range(seqs) {
+		// note: a local var start/end does not conflict with the function inputs
+		// probably an artifact of copypasting but it works
 		start := 'A'
 		temp := 0
 		for _, end := range(seq) {
